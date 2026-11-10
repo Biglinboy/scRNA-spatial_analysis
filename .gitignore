@@ -1,0 +1,32 @@
+# 运行产物
+results/
+figures/
+cache/
+logs/
+
+# 大对象
+*.rds
+*.h5
+*.h5ad
+*.loom
+*.RData
+
+# R
+.Rhistory
+.Rproj.user/
+.Rapp.history
+sessionInfo.txt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 数据
+data/raw/
