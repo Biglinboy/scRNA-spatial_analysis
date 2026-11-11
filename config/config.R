@@ -62,9 +62,9 @@ rctd_mode      <- "full"          # doublet / full
 
 # ---- 分组：对照与病变（与 sample_sheet.csv 一致）--------------
 group_levels <- c("C", "P")
-control_ids  <- c("C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8")
-case_ids     <- c("P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8")
-paired_compare <- c("C1vsP1", "C2vsP2", "C3vsP3", "C5vsP5",
+control_ids  <- c("C1", "C2", "C3", "C6", "C7", "C8", "C9", "C11")
+case_ids     <- c("P1", "P2", "P3", "P6", "P7", "P8", "P9", "P11")
+paired_compare <- c("C1vsP1", "C2vsP2", "C3vsP3", "C6vsP6",
                     "C7vsP7", "C8vsP8", "C9vsP9", "C11vsP11")
 
 # ---- 通路与基因（论文展示用）----------------------------------
